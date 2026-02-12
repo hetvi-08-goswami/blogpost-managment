@@ -4,7 +4,6 @@ import AuthGuard from "./auth/AuthGuard";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import toast from "react-toastify";
 
 import {
   createBrowserRouter,
@@ -52,22 +51,20 @@ function App() {
       ),
     },
   ]);
-<>
-<ToastContainer
-position="top-rigth"
-autoClose={1000}
-hidenPrograssBar={false}
-newestOnTop={false}
-closeOnClick={false}
-rtl={false}
-pauseOnFocusLoss
-draggable
-pauseOnHover
-theme="light"
-/>
-</>
-
-
+  <>
+    <ToastContainer
+      position="top-rigth"
+      autoClose={1000}
+      hidenPrograssBar={false}
+      newestOnTop={false}
+      closeOnClick={false}
+      rtl={false}
+      pauseOnFocusLoss
+      draggable
+      pauseOnHover
+      theme="light"
+    />
+  </>;
 
   return <RouterProvider router={route} />;
 }

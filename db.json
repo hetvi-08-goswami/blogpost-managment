@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": "4d4b",
+      "title": "Title 1",
+      "description": "lorem Ipsum is simple dummytext of the pri",
+      "author": "Hetvi Goswami",
+      "image": "https://avatars.mds.yandex.net/i?id=318c2daf10cdbe1a97ba006c84c5c45c4cc9fad5-2710895-images-thumbs&n=13",
+      "createADT": "2026-02-06T10:41:07.8377"
+    },
+
+    {
+      "id": "4d4b",
+      "title": "Title 1",
+      "description": "lorem Ipsum is simple dummytext of the pri",
+      "author": "Hetvi Goswami",
+      "image": "https://avatars.mds.yandex.net/i?id=318c2daf10cdbe1a97ba006c84c5c45c4cc9fad5-2710895-images-thumbs&n=13",
+      "createADT": "2026-02-06T10:41:07.8377"
+    },
+
+    {
+      "id": "4d4b",
+      "title": "Title 1",
+      "description": "lorem Ipsum is simple dummytext of the pri",
+      "author": "Hetvi Goswami",
+      "image": "https://avatars.mds.yandex.net/i?id=318c2daf10cdbe1a97ba006c84c5c45c4cc9fad5-2710895-images-thumbs&n=13",
+      "createADT": "2026-02-06T10:41:07.8377"
+    }
+  ]
+}

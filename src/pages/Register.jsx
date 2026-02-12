@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Register.css";
-import { Link ,useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const Register = () => {
@@ -62,7 +62,7 @@ const Register = () => {
       console.log(formData);
       localStorage.setItem("authData", JSON.stringify(formData));
       //   alert("Registration success");
-      toast.success("Registration Succesfull")
+      toast.success("Registration Succesfull");
       navigate("/login");
     }
   };

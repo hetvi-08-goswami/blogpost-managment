@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const user = JSON.parse(localStorage.getItem("authData"))
+  const user = JSON.parse(localStorage.getItem("authData"));
   return (
     <>
       <nav className="navbar">
@@ -20,7 +20,7 @@ const Navbar = () => {
               Home
             </NavLink>
 
-            <NavLink to="/create-post" className="nav-item">
+            <NavLink to="/createpost" className="nav-item">
               <FaPlusSquare className="nav-icon" />
               Craeate Post
             </NavLink>

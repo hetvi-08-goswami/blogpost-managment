@@ -24,6 +24,11 @@ const Navbar = () => {
               <FaPlusSquare className="nav-icon" />
               Craeate Post
             </NavLink>
+
+            <NavLink to="/Analysis" className="nav-item">
+              <FaPlusSquare className="nav-icon" />
+              Analystic
+            </NavLink>
           </div>
           <div className="navbar-actions">
             <span className="user-name">{user.name}</span>

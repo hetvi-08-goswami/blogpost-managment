@@ -13,6 +13,7 @@ const Register = () => {
     confirm: "",
   });
   const [errors, setErrors] = useState({});
+  const navigate = useNavigate();
   //logic
   const handleInputChange = (e) => {
     setFormData({
